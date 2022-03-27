@@ -40,13 +40,8 @@ notes.delete('/:id', (req, res) => {
             const note = parsedNotes.filter( x => {
                 return x.id !== id;
             })
-            res.json(id)
-            fs.writeFile(`./db/db.json`, JSON.stringify(note), {
-                encoding: "utf8",
-                flag: "w",
-                mode: 0o666
-              },
-              (err) => {
+            res.json(note)
+            fs.writeFile(`./db/db.json`, JSON.stringify(note), (err) => {
                 if (err)
                   console.log(err);
                 else {

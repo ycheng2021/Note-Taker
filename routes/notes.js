@@ -30,7 +30,7 @@ notes.post('/', (req, res) => {
     }
 })
 
-notes.get('/:id', (req, res) => {
+notes.delete('/:id', (req, res) => {
     const { id } = req.params
     fs.readFile(`./db/db.json`, "utf8", (err, data) => {
         if (err) {

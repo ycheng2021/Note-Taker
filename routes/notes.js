@@ -5,6 +5,7 @@ const { readAndAppend, readFromFile } = require('../helpers/fsUtils')
 
 // random id 
 const { v4: uuidv4 } = require('uuid');
+const app = require('.');
 
 // get route to retrieve all the notes from db.json
 notes.get('/', (req, res) =>     
@@ -12,14 +13,14 @@ notes.get('/', (req, res) =>
 );
 
 // post route for notes on html
-notes.post('/', (req, res) => {
+notes.post('/notes', (req, res) => {
     const { title, text } = req.body;
 
     if (req.body) {
         const newNote = {
             title,
             text,
-            note_id: uuidv4(),
+            id: uuidv4(),
         };
         readAndAppend( newNote, './db/db.json');
         res.json('Notes added successfully 🚀');

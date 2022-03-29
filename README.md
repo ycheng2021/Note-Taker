@@ -24,6 +24,12 @@ Note taker is an application that helps users keep track of their daily tasks by
 None
 
 ## Usage 
+
+![screenshot](./images/mainpage.png)
+
+
+![screenshot](./images/notes.png)
+
 User need to navigate to the link in order to use Note Taker.
 
 ## Contributing

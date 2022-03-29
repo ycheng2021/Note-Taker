@@ -2,7 +2,6 @@
 const express = require('express');
 // path
 const path = require('path');
-const db = require('./db/db.json')
 // middleware
 const { clog } = require('./middleware/clog')
 // route to index

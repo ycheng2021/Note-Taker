@@ -36,9 +36,9 @@ none
 This application does not have a license.
 
 ## Questions
-Github link: https://github.com/ycheng2021
+Github link: https://github.com/ycheng2021/Note-Taker
 
-Application Link: https://blooming-atoll-04916.herokuapp.com/
+Application Link: https://desolate-caverns-83548.herokuapp.com/
 
 If you have any additional questions, feel free to reach me at annacheng09@hotmail.com
 

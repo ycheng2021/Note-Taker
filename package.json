@@ -5,7 +5,8 @@
   "main": "server.js",
   "license": "ISC",
   "scripts" : {
-    "start": "npm run"
+    "postinstall": "npm run build",
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.16.4",

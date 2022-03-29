@@ -30,6 +30,4 @@ app.get('/*', (req, res) =>
 );
 
 // app.listen
-app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
-);
+app.listen(PORT)

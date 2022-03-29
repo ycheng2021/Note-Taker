@@ -24,7 +24,7 @@ Note taker is an application that helps users keep track of their daily tasks by
 None
 
 ## Usage 
-User need to navigate to ___ in order to use Note Taker.
+User need to navigate to link in order to use Note Taker.
 
 ## Contributing
 There are no contributing guidelines
@@ -38,7 +38,7 @@ This application does not have a license.
 ## Questions
 Github link: https://github.com/ycheng2021
 
-Application Link: 
+Application Link: link here
 
 If you have any additional questions, feel free to reach me at annacheng09@hotmail.com
 
